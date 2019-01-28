@@ -22,8 +22,7 @@ nav {
 }
 
 .restaurant-list {
-  padding-top: 50px;
-  margin: 20px auto;
+  padding-top: 43px;
   width: 100%;
 }
 
@@ -35,13 +34,15 @@ nav {
 }
 .content {
   margin: .5% 0;
-  width: 100%;
+  width: 75%;
   padding: 5px 5px;
+  display: inline-block;
 }
 .arrow {
   margin: 1% 0;
-  width: 100%;
-  padding: 0px 5px;
+  width: 15%;
+  padding: 5px 0px;
+  display: inline-block;
 }
 
 .location:hover {
@@ -52,11 +53,15 @@ nav {
   font-size: 175%;
   color: #000000;
   font-weight: 550;
+  width: 80%;
+  display: inline-block;
+  line-height: 24px;
 }
 
 .content h3 {
   font-size: 125%;
   color: #000000;
+  line-height: 22px;
 }
 
 .arrow {
